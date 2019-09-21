@@ -1,7 +1,7 @@
 export default {
     // baseURL: '//47.99.60.167',
     baseURL: 'http://phy.wangpeerless.cn',
-    signin: '/login',
+    signin: '/api-admin/login',
     // 管理员
     getAdminList: '/api-admin/admin-list',
     addAdminList: '/api-admin/admin-create',
