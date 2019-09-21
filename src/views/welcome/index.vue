@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p style="font-size: 24px;padding: 100px 0;text-align:center;color:#999;">欢迎来到展源商城管理系统</p>
+        <p style="font-size: 24px;padding: 100px 0;text-align:center;color:#999;">欢迎来到九型体质管理系统</p>
     </div>
 </template>
 <script>

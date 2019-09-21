@@ -41,7 +41,7 @@ export default {
                     type: 'success',
                 });
                 setTimeout(() => {
-                    window.localStorage.setItem('name', form.name);
+                    window.localStorage.setItem('name', this.form.name);
                     this.$router.replace('/');
                 }, 500);
             } else {
