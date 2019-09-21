@@ -1,0 +1,72 @@
+.zy-card {
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 8px;
+    background: #fff;
+    &__head {
+        padding: 10px 12px;
+        border-bottom: 1px solid #f0f0f0;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    &__body {
+        padding: 20px 12px;
+    }
+    &__float {
+        width: 25%;
+        float: left;
+        font-size: 14px;
+        text-align: center;
+        span {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            img { width: 100% }
+        }
+        p {
+            padding-top: 10px;
+            color: #333;
+        }
+    }
+    &__cell {
+        display: flex;
+    }
+    &__cell-item {
+        flex: 1;
+        text-align: center;
+        margin: 10px 0;
+        &:last-of-type {
+            border-left: 1px solid #f0f0f0;
+        }
+        i { // icon
+            padding-right: 5px;
+        }
+        p {
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: bold;
+        }
+        span {
+            padding-left: 5px;
+            font-size: 20px;
+            color: #f77;
+        }
+    }
+    &__justify {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        color: #999;
+        border-top: 1px solid #f0f0f0;
+        &:first-of-type {
+            border: 0;
+        }
+        & .black {
+            color: #333;
+        }
+    }
+}
