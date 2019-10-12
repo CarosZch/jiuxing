@@ -154,6 +154,9 @@ export default {
                 this.$message({ message: '请添加问题列表', type: 'warning' })
                 return
             }
+            data.questions = data.questions.map(_ => {
+                return { ..._, id: '' }
+            })
             const res = await this.$request(this.$api.editQuestionnaireList, 'post', data);
             if (res.data.code === '00001') {
                 this.$message({ message: '编辑成功', type: 'success' });
