@@ -1,5 +1,6 @@
 export default {
-    baseURL: 'http://121.40.138.52',
+    baseURL: 'https://jxtz.qingyubaoma.com/',
+    // baseURL: 'http://121.40.138.52',
     // baseURL: 'http://phy.wangpeerless.cn',
     signin: '/api-admin/login',
     // 管理员
